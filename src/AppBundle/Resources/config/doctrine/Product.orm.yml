@@ -1,0 +1,7 @@
+AppBundle\Entity\Product:
+  type: entity
+  table: sylius_product
+  fields:
+    konrad:
+      type: string
+      nullable: true

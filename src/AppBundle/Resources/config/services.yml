@@ -1,1 +1,5 @@
-services: ~
+services:
+    app.form.extension.type.product:
+        class: AppBundle\Form\Extension\ProductTypeExtension
+        tags:
+            - { name: form.type_extension, extended_type: Sylius\Bundle\ProductBundle\Form\Type\ProductType }
